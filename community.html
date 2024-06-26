@@ -5,32 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Hobbies</title>
+    <title>Comunidades</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionais podem ser definidos aqui */
+
+        .community-content {
+            margin-top: 30px;
+            text-align: justify;
+        }
+
+        .community-content p {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class="text-center mt-5 mb-4">Hobbies</h1>
+    <h1 class="text-center mt-5 mb-4">Comunidades</h1>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="myhobbies.html">Meus Hobbies</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="community.html">Comunidades</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="community.html">Comunidades<span class="sr-only">(atual)</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Conteúdo da Comunidade -->
+    <div class="container community-content">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Comunidade de Piano Clássico</h2>
+                <img src="img/piano.jpg" alt="Piano Clássico" class="img-fluid">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero et massa blandit
+                    fermentum. Maecenas dapibus magna sit amet est laoreet, sit amet tristique arcu mollis. Cras
+                    efficitur arcu ac dui semper, at volutpat turpis consectetur. Nullam convallis gravida nunc, in
+                    tincidunt nunc convallis sit amet.
+                </p>
+                <a href="piano_community.html" class="btn btn-primary">Visitar Comunidade</a>
+            </div>
+            <div class="col-md-6">
+                <h2>Comunidade de Culinária Brasileira</h2>
+                <img src="img/comida.jpg" alt="Culinária Brasileira" class="img-fluid">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero et massa blandit
+                    fermentum. Maecenas dapibus magna sit amet est laoreet, sit amet tristique arcu mollis. Cras
+                    efficitur arcu ac dui semper, at volutpat turpis consectetur. Nullam convallis gravida nunc, in
+                    tincidunt nunc convallis sit amet.
+                </p>
+                <a href="cooking_community.html" class="btn btn-primary">Visitar Comunidade</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 IMD, Inc</p>
