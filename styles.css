@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    padding-top: 56px;
+    background: linear-gradient(to bottom, rgb(173, 216, 230), rgb(252,227,229)); 
+    height: 100vh; 
+    min-height: 100vh; /* Altura mínima da página */
+    margin: 0; /* Remove margens */
+    position: relative; /* Posição relativa para o body */
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar {
+    margin: 25px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.1); /* Fundo ligeiramente escuro para contraste */
+    border-radius: 15px; /* Arredonda os cantos dos itens do nav */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 5px; /* Espaçamento entre os itens */
+    color: #000; /* Cor do texto */
+}
+
+.navbar-nav .nav-link:hover {
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.2); /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.footer {
+    background-color: #f8f9fa; 
+    padding: 20px 0; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+}
